@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap');
 /* =======================================================
 *
 * 	Template Style 
@@ -12,7 +13,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
   line-height: 1.5;
   background: #fff;
   color: #848484;
@@ -126,7 +127,7 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: rgba(141, 113, 96, 0.3);
+  /* background: rgba(141, 113, 96, 0.3); */
 }
 
 .fh5co-cover {
@@ -246,7 +247,7 @@ figure {
 
 .sf-menu a {
   color: rgba(0, 0, 0, 0.8);
-  color: #fff;
+  color: rgb(32, 30, 30);
   padding: .75em 1em;
   font-weight: normal;
   border-left: none;
@@ -288,7 +289,7 @@ figure {
 .sf-menu ul li:hover a,
 .sf-menu ul li.sfHover a,
 .sf-menu li.active a {
-  color: #fff;
+  color: #724102;
 }
 
 .sf-menu ul li:hover,
