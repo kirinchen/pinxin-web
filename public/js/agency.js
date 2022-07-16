@@ -12,6 +12,12 @@ function triggerScroll(targetId){
 }
 
 function triggerNavBar(){
+  const toggleDisplay = $('.js-fh5co-nav-toggle').css('display');
+  console.log('toggleDisplay='+toggleDisplay);
+  if(toggleDisplay == "none" ){
+    console.log("toggleDisplay is null");
+    return;
+  }
   if ( $('body').hasClass('fh5co-offcanvas') ) {
     $('body').removeClass('fh5co-offcanvas');
   } else {
