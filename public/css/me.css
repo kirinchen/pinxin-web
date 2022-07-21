@@ -17,10 +17,51 @@
     font-size: 16px;
     line-height: 24px;
     /* or 150% */
-    
-    
+
+
     /* Black */
-    
+
     color: #343634;
 }
 
+#join-icon {
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    background-color: #9CC955;
+}
+
+
+
+#join-desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    /* Black */
+
+    color: #343634;
+}
+
+#join-title {
+    font-family: 'Noto Sans CJK TC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #343634;
+}
+
+#fh5co-content-section {
+    background-color: #E1DF68;
+}
