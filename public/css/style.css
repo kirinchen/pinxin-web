@@ -825,7 +825,15 @@ h3.heading-section:before {
   color: #fff;
 }
 #fh5co-blog-section p, #fh5co-start-project-section p {
-  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  
+  color: #FFFFFF;
 }
 
 .fh5co-blog {

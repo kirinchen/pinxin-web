@@ -65,3 +65,12 @@
 #fh5co-content-section {
     background-color: #E1DF68;
 }
+
+
+#contact-icon {
+    border-radius: 50%;
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    background-color: #9CC955;
+}
