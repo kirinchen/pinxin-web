@@ -68,9 +68,27 @@
 
 
 #contact-icon {
-    border-radius: 50%;
+    border-radius: 45%;
     padding: 20px;
-    width: 120px;
-    height: 120px;
-    background-color: #9CC955;
+    width: 150px;
+    height: 150px;
+    background-color: #FFFFFF;
+}
+
+#fh5co-contact-section {
+    background: #ED6B2C;
+    color: #FFFFFF;
+    padding: 5em;
+}
+
+#contact-icon-desc {
+    color: #FFFFFF;
+}
+
+#contact-box{
+    padding-bottom: 3em;
+}
+
+#contact-box h2{
+    color: #FFFFFF;
 }
