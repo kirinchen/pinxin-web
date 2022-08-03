@@ -865,7 +865,7 @@ h3.heading-section:before {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   opacity: 1;
 }
 .fh5co-blog .image-popup span {
