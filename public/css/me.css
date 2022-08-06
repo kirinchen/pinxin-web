@@ -1,3 +1,10 @@
+#work-img-box{
+    background-image: url('../images/work-group.jpg');
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 #main-h2 {
     margin-top: 60px;
     color: #343634;
@@ -129,4 +136,8 @@
 
 #contact-box h2{
     color: #FFFFFF;
+}
+
+#toggle-a{
+    background-color: #ed6c2c6c;
 }
