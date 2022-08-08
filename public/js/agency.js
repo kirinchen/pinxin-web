@@ -1,6 +1,6 @@
-function triggerScroll(targetId){
+function triggerScroll(targetId,triggerNavBarble = true){
   var target = $(targetId);
-  triggerNavBar();
+  triggerNavBar(triggerNavBarble);
   // target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
   if (target.length) {
     $('html, body').animate({
@@ -11,7 +11,8 @@ function triggerScroll(targetId){
 
 }
 
-function triggerNavBar(){
+function triggerNavBar(triggerNavBarble){
+  if(!triggerNavBarble) return;
   const toggleDisplay = $('.js-fh5co-nav-toggle').css('display');
   console.log('toggleDisplay='+toggleDisplay);
   if(toggleDisplay == "none" ){
