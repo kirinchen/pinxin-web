@@ -86,7 +86,7 @@ figure {
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .top a {
-    float: left;
+    float: none;
   }
 }
 #fh5co-header .top a i {
@@ -204,7 +204,7 @@ figure {
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 99;
   text-align: right;
 }
